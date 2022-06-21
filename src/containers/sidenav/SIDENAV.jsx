@@ -1,7 +1,7 @@
 import Style from "./SIDENAV.module.css";
 import { Sidenavlink } from "../../components/Export";
 import { BsVimeo } from "react-icons/bs";
-import logo  from "./logo.svg";
+import Logos from './Logo.svg'
 import {
   FaLinkedin,
   FaBehanceSquare,
@@ -12,7 +12,7 @@ export default function SIDENAV() {
   return (
     <div className={Style.sidebar}>
       <a href={"#index"}>
-        <img src={logo} alt="Logo" className={Style.logo} />
+        <img src={Logos} alt="Logo" className={Style.logo} />
       </a>
       <div className={Style.link__container}>
         <Sidenavlink
