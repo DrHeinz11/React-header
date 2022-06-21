@@ -1,0 +1,11 @@
+a {
+  font-family: "Product Sans Medium", sans-serif;
+  font-size: 1rem;
+  color: #000;
+  text-decoration: none;
+  text-transform: lowercase;
+  padding: 5px 10px;
+}
+a:hover {
+  border-bottom: 1px solid #f1214f;
+}

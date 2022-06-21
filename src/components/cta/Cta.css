@@ -1,0 +1,14 @@
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+  gap: 10px;
+  background-color: #f1214f;
+  width: 230px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Product Sans Medium", sans-serif;
+}

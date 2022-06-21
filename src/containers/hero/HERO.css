@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.icon {
+  width: 22px;
+  height: auto;
+}
+.hero {
+  grid-area: header;
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "copy figure"
+    "copy figure"
+    "info figure ";
+  justify-items: stretch;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+.hero__copy {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  grid-area: copy;
+}
+.copy__head {
+  font-family: "Product Sans Thin", sans-serif;
+  font-weight: 250;
+  font-size: 1.25rem;
+  padding-inline-start: 5px;
+}
+
+.copy__title {
+  font-family: "Circular Std", Helvetica;
+  font-size: 4.5rem;
+  font-weight: 900;
+}
+.copy__subtitle,
+.copy__subtitle--light {
+  font-family: "Circular Std";
+  font-size: 2.5rem;
+  font-weight: 450;
+}
+.copy__subtitle--light {
+  font-size: 1.75rem;
+}
+.hero__figure {
+  max-width: 400px;
+  min-width: 350px;
+  grid-area: figure;
+}
+.infocard__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  grid-area: info;
+}

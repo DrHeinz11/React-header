@@ -1,0 +1,1 @@
+export {default as Figure} from './Vector 1.png'

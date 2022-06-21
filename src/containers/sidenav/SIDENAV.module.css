@@ -1,0 +1,34 @@
+.sidebar {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-right: 2px solid rgba(204, 204, 204, 0.5);
+}
+
+.logo {
+  position: relative;
+  top: 4px;
+  width: 1.75em;
+}
+.link__container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 100%;
+  padding: 0 5px 5px 5px;
+}
+.icon__call {
+  margin: auto;
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #ccc;
+}
+
+.icon__call:hover {
+  fill: #f1214e;
+}

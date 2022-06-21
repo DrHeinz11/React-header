@@ -1,0 +1,25 @@
+/*.App {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+*/
+.App {
+  display: grid;
+  overflow-x: hidden;
+  grid-template-columns: max-content repeat(3, 1fr);
+  grid-template-rows: 50px repeat(2, 1fr);
+  gap: 10px;
+  grid-template-areas:
+    "sidebar topnav topnav topnav"
+    "sidebar header header header"
+    "sidebar header header header";
+  width: 100%;
+  /*max-width: 1200px;*/
+  margin: auto;
+  height: 100vh;
+}

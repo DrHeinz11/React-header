@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="69" viewBox="0 0 37 69">
+  <g id="Logo" transform="translate(-29 -22.5)">
+    <path id="i" d="M3.708,17H.292V5.551H3.708ZM.584,3.5A2,2,0,0,1,0,2.05,2,2,0,0,1,.584.6,1.879,1.879,0,0,1,1.978,0,1.9,1.9,0,0,1,3.393.6,1.964,1.964,0,0,1,4,2.05,1.964,1.964,0,0,1,3.393,3.5a1.9,1.9,0,0,1-1.416.6A1.879,1.879,0,0,1,.584,3.5Z" transform="translate(59 51)" fill="#f1214f"/>
+    <text id="V" transform="translate(29 22.5)" font-size="52" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.077em"><tspan x="0" y="56">V</tspan></text>
+  </g>
+</svg>
